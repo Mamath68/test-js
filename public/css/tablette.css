@@ -1,0 +1,5 @@
+/* iPads (portrait) ----------- */
+@media only screen and (device-width : 820px) and (-webkit-device-pixel-ratio: 1.0) {}
+
+/* iPads (landscape) ----------- */
+@media only screen and (device-width :1180px) and (-webkit-device-pixel-ratio : 2) {}

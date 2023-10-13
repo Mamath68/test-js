@@ -1,0 +1,5 @@
+/* Portrait */
+@media only screen and (device-width : 414px) and (-webkit-device-pixel-ratio : 2) {}
+
+/* Paysage */
+@media only screen and (device-width : 896px) and (-webkit-device-pixel-ratio : 2) {}

@@ -1,0 +1,63 @@
+/* ************************General************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.go_top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: black;
+    bottom: 40px;
+    left: 50px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+/* ********************Yu-Gi-Oh! */
+
+#warrior {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#magician {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#zombie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+/* ************************Magic******************** */
+
+#magic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Crée une grille avec trois colonnes de taille égale */
+    grid-gap: 10px;
+    /* Ajoute un espace de 10px entre les éléments de la grille */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
